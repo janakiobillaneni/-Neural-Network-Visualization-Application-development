@@ -5,9 +5,9 @@ Testing a deployed computer vision model in a robust way can be challenging. The
  Above are the files we have created in this project.
  **model.h5** is the resnet model we have developed on Human Emotion Detection dataset from Kaggle. It is loaded in the **app.py** where we have our code using Flask for the web application.
  
- The .html files in **templates** folder are used to upload the image and display the output back to the user.
+ The .html files are used to upload the image and display the output back to the user.
  
- **uploads** folder is the one where all the images uploaded by users are stored.
+ **test** files is the one where all the images uploaded by users are stored.
  
  We have other files (requirements.txt, runtime.txt, Procfile and Dockerfile) which are used for **runtime purpose** where we have specified all the required libraries for our project and the runtime environment versions.
  
